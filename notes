@@ -1,0 +1,11 @@
+* Python 2 vs 3
+2 - print "hello"  # print is a keyword
+3 - print("hello") # print is a method
+
+2 - print(10, 20) -> (10,20) # tuple
+3 - print(10, 20) -> 10 20
+
+Jython - Java byte code
+Iron Python - .NET
+Pypy -> JIT (C code) compiler
+

@@ -1,5 +1,3 @@
-import sys
-
 input_celsius = input("Provide celsius temperature: ")
 try:
     celsius       = float(input_celsius)

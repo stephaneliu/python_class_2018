@@ -5,7 +5,27 @@
 2 - print(10, 20) -> (10,20) # tuple
 3 - print(10, 20) -> 10 20
 
+2 - String 8-bit and unicode chars
+3 - String 16-bit and byte for 8-bit
+* Additionally, binary files, URL, and sockets are read in as bytes. Must decode() -> str or "abc".encode() to bytes
+
 Jython - Java byte code
 Iron Python - .NET
 Pypy -> JIT (C code) compiler
 
+* None is nil
+* False is false
+* True is true
+
+* Undo override of builtin function
+> "Helllo".len() -> 6
+> len = "hi"
+# Remove len assignment with del command
+> del len
+
+* Docstring
+def add(x, y)
+    """combines two variable"""
+    return x + y
+> add.__doc__
+or > help(add)

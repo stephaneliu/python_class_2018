@@ -18,3 +18,5 @@ while True:
             print("Line {} with values '{}' has a division by zero".format(index, line.rstrip()))
         except Exception:
             print("Line {} with values '{}' could not be parsed correctly".format(index, line.rstrip()))
+
+    file.close()

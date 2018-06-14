@@ -15,6 +15,6 @@ while True:
             fl_1, fl_2 = [ float(num) for num in line.split()]
             print("Division of two", fl_1 / fl_2)
         except ZeroDivisionError:
-            print("Line", index, "with values '", line.rstrip(), "' has division by zero error")
+            print("Line {} with values '{}' has a division by zero".format(index, line.rstrip()))
         except Exception:
-            print("Line", index, "with values '", line.rstrip(), "' could not be parsed correctly")
+            print("Line {} with values '{}' could not be parsed correctly".format(index, line.rstrip()))

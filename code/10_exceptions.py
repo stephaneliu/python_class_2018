@@ -18,5 +18,3 @@ while True:
             print("Line", index, "with values '", line.rstrip(), "' has division by zero error")
         except Exception:
             print("Line", index, "with values '", line.rstrip(), "' could not be parsed correctly")
-
-

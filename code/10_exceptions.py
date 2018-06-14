@@ -12,7 +12,7 @@ while True:
 
     for index, line in enumerate(file, 1):
         try:
-            fl_1, fl_2 = [ float(num) for num in line.split()]
+            fl_1, fl_2 = [float(num) for num in line.split()]
             print("Division of two", fl_1 / fl_2)
         except ZeroDivisionError:
             print("Line {} with values '{}' has a division by zero".format(index, line.rstrip()))
